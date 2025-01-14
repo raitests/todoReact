@@ -1,0 +1,32 @@
+*{
+    background-color: #FBF5E5;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #A35C7A;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addLabel{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.btn{
+    background-color: #A35C7A;
+    color: #FBF5E5;
+    font-size: 1.3em;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.btn-delete{
+    background-color: rgb(240, 110, 110);
+}   
+
+li{
+    list-style: none;
+}
